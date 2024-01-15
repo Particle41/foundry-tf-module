@@ -1,11 +1,15 @@
-# tf-module-template
+# foundry-tf-module
 
-[//]: # (BEGIN_TF_DOCS)
+[Cookiecutter](https://www.cookiecutter.io/) template to generate a Terraform module.
 
-[//]: # (END_TF_DOCS)
+## Pre-requisites
 
-## Authors
+```sh
+pip install pipx
+```
 
-## License
+## Run
 
-This project is licensed under the [Unlicense](UNLICENSE.md).
+```sh
+pipx run cookiecutter gh:Particle41/foundry-tf-module
+```
